@@ -1,0 +1,39 @@
+html,body{
+     height: 100%;
+     width: 100%;
+}
+
+.button{
+     width: 56px;
+     padding: 10px 15px;
+     margin: 0 3px;
+     border: 2px solid black;
+     border-radius: 8px;
+     cursor: pointer;
+     background: rgb(121, 120, 120);
+}
+
+.row{
+     margin: 8px 0;
+}
+.row input{
+     margin: 0;
+     padding: 10px 8px;
+     border:2px solid black;
+     font-size: 20px;
+     border-radius: 5px;
+     margin-top: 20px;
+}
+.container{
+height: 380px;
+width: 300px;
+background: #000;
+border: 2px solid gray;
+border-radius: 23px;
+box-shadow: 2px 3px 3px 2px gray ;
+}
+
+.container:hover{
+     transform: scale(1.02);
+     box-shadow: 2px 3px 3px 4px pink ;
+}
